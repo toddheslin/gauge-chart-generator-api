@@ -51,8 +51,8 @@ module.exports = async (req, res) => {
 
 		// Create png using Chromium
 		const png = await convert(el.innerHTML, {
-			width: 150,
-			height: 150
+			width: 300,
+			height: 300
 		})
 		// Send response
 		res.setHeader('Content-Type', 'image/png')
