@@ -2,3 +2,4 @@ node_modules
 .gcloudignore
 now.json
 app.yaml
+ecosystem.config.js
